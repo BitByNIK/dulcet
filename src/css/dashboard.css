@@ -1,0 +1,56 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  color: tomato;
+  font-size: larger;
+  size: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar Button {
+  color: orange;
+}
+
+#below-appbar {
+  margin-top: 100px;
+}
+
+#add.MuiIconButton-root {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+#add .MuiSvgIcon-fontSizeLarge {
+  font-size: 50px;
+}
+
+ul#sl {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+img {
+  width: 50px;
+}
+
+#acc-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#acc-info span {
+  font-weight: normal;
+}
+
+.empty {
+  font-style: italic;
+  font-size: 30px;
+  color: gray;
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

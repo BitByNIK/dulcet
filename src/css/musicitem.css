@@ -1,0 +1,32 @@
+body {
+  margin: 20px;
+}
+
+#card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#below-appbar .MuiPaper-rounded {
+  border-radius: 0px;
+  border: 1px solid lightgrey;
+  border-width: 0 0 1px 0;
+}
+
+#card button,
+#card .details,
+#card audio {
+  margin: 0px 20px 0px 20px;
+  font-weight: bolder;
+}
+
+.details * {
+  display: block;
+  width: 200px;
+}
+
+.details span {
+  color: grey;
+}
